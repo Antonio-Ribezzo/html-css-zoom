@@ -24,10 +24,6 @@ a{
     color: white;
 }
 
-
-
-
-
 /* utility */
 .flex-row{
     display: flex;
@@ -79,13 +75,12 @@ a{
 main{
     height: 100vh;
     background-color: black;
-    padding: 50px;
+    padding: 80px;
 }
 
 .conteiner-users{
     margin: auto;
-    width: 95%;
-    height: 80vh;
+    height: 90%;
     align-items: flex-start;
 }
 
