@@ -1,0 +1,1 @@
+# Riproduzione del layout di zoom
