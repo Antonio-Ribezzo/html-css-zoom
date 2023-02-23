@@ -7,6 +7,12 @@
     <title>Zoom</title>
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- corpo della pagina -->
@@ -16,9 +22,68 @@
     </main>
 
     <!-- footer in position fixed -->
-    <footer>
-
-
+    <footer class="flex-row justify-content-between">
+        <!-- left icon -->
+        <div class="left-icon flex-row vertical-center">
+            <div class="flex-column">
+                <i class="fa-solid fa-microphone"></i>
+                <h5>Mute</h5>
+            </div>
+            <div class="apice">&#8743;</div>
+            <div class="flex-column">
+                <i class="fa-solid fa-video"></i>
+                <h5>Stop Video</h5>
+            </div>
+            <div>&#8743;</div>
+        </div>
+        <!-- center icon -->
+        <div class="flex-row vertical-center">
+            <div class="flex-column">
+                <i class="fa-solid fa-user-plus"></i>
+                <h5>Invite</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fa-solid fa-user-group"></i>
+                <h5>Manage Participants</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fa-solid fa-chart-column"></i>
+                <h5>Polling</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fa-solid fa-share-from-square"></i>
+                <h5>Share Screen</h5>
+            </div>
+    
+            <div class="apice">&#8743;</div>
+    
+            <div class="flex-column">
+                <i class="fa-solid fa-comment"></i>
+                <h5>Chat</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fa-solid fa-record-vinyl"></i>
+                <h5>Record</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fas fa-th-large"></i>
+                <h5>Breakout Rooms</h5>
+            </div>
+    
+            <div class="flex-column">
+                <i class="fa fa-ellipsis-h"></i>
+                <h5>More</h5>
+            </div>
+        </div>
+        <!-- right element-->
+        <div class="flex-column end-meeting">
+            <h6>End meeting</h6>
+        </div>
     </footer>
 </body>
 </html>

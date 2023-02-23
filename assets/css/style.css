@@ -4,3 +4,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h4{
+    color: white;
+    margin: 10px 0;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    color: red;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* utility */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.vertical-center{
+    align-items: center;
+}
+
+.justify-content-between{
+    justify-content:space-between;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+/* main */
+
+
+
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    z-index: 9999999;
+}
+
+.left-icon{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer i{
+    font-size: 25px;
+    margin-bottom: 2.5px;
+    margin-right: 20px;
+}
+
+.apice{
+    margin-right: 20px;
+}
+
+footer h5{
+    margin-top: 2.5px;
+    margin-right: 20px;
+}
+
+.fa-share-from-square{
+    color: #4bc801;
+}
+
+.end-meeting{
+    text-align: center;
+    color: red;
+    background-color: #4a4a4a;
+    padding: 10px 10px;
+}
