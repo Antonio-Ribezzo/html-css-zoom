@@ -69,6 +69,12 @@ a{
     position: absolute;
 }
 
+/* animation */
+@keyframes recording {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
 /* main */
 main{
     height: 100vh;
@@ -106,6 +112,11 @@ img{
     right: 10px;
 }
 
+.rec-button{
+    top: 10px;
+    left: 10px;
+}
+
 .button-1{
     background-color: grey;
     color: white;
@@ -115,6 +126,19 @@ img{
     font-size: 12px;
 }
 
+.button-rec{
+    color: red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.rec-dot{
+    animation-name: recording;
+    animation-duration: 1s;
+    animation-iteration-count: 10000;
+}
 
 /* footer */
 footer{
