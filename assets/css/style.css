@@ -81,11 +81,11 @@ main{
 .conteiner-users{
     margin: auto;
     height: 90%;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .img-conteiner{
-    width: calc(95% / 7);
+    flex-basis: calc(95% / 7);
 }
 
 img{
@@ -159,7 +159,7 @@ footer i{
     margin-right: 20px;
 }
 
-.fa-microphone-slash{
+footer .fa-microphone-slash{
     top: 0;
     right: 0;
     left: 0;
@@ -167,7 +167,7 @@ footer i{
     opacity: 0;
 }
 
-.fa-microphone-slash:hover{
+footer .fa-microphone-slash:hover{
     opacity: 1;
 }
 
